@@ -181,10 +181,7 @@
       h2 8.3 Reporte de novedades e incidencias
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-4.col-md-8.mb-4.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema8/img05.png", alt="Reporte de novedades e incidencias").mx-auto
-      .col-lg-8
+      .col-lg-8.mb-4.mb-lg-0
         p.mb-3 Cualquier situación anormal, desviación o incidente que ocurra durante el proceso productivo debe ser documentada mediante un reporte de novedades. Este reporte tiene como objetivo:
         ul.lista-ul--color
           li.mb-2
@@ -199,6 +196,9 @@
           li.mb-2
             i.fas.fa-circle-right.bg-color-4
             | Cumplir con requisitos legales en caso de incidentes de seguridad o salud.
+      .col-lg-4.col-md-8
+        figure
+          img(src="@/assets/curso/tema8/img05.png", alt="Reporte de novedades e incidencias").mx-auto
 
 
     .row.align-items-stretch.justify-content-center.mb-3
@@ -263,9 +263,11 @@
                 i.fas.fa-circle-right.bg-color-4
                 | Firma del supervisor o responsable de área.
 
-    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
-      .col-lg-12
-        p.mb-0 La adecuada gestión de los formatos y registros no solo facilita el control operativo, sino que también constituye evidencia del cumplimiento de requisitos legales y normativos, y proporciona información valiosa para la mejora continua de los procesos.
+    
+    .container
+      .row.mb-2.justify-content-center.align-items-center
+        .bg-color-2.p-4.br-15
+          p.mb-0 La adecuada gestión de los formatos y registros no solo facilita el control operativo, sino que también constituye evidencia del cumplimiento de requisitos legales y normativos, y proporciona información valiosa para la mejora continua de los procesos.
 
 </template>
 
