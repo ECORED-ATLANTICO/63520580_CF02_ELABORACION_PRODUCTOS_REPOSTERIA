@@ -13,7 +13,7 @@
         
         .row.justify-content-center.align-items-center.z-2.mb-0
           .col-lg-10(data-aos="fade-up")
-            p.banner-text La actividad repostera, como toda industria alimentaria, genera residuos que deben ser gestionados adecuadamente para minimizar el impacto ambiental, prevenir problemas sanitarios y cumplir con la normativa vigente. La gestión integral de residuos implica desde la reducción en la fuente hasta la disposición final, pasando por la segregación, el almacenamiento temporal y el aprovechamiento cuando sea posible.
+            p.banner-text(style="background-color: #ffffff !important") La actividad repostera, como toda industria alimentaria, genera residuos que deben ser gestionados adecuadamente para minimizar el impacto ambiental, prevenir problemas sanitarios y cumplir con la normativa vigente. La gestión integral de residuos implica desde la reducción en la fuente hasta la disposición final, pasando por la segregación, el almacenamiento temporal y el aprovechamiento cuando sea posible.
 
 
     separador
@@ -253,62 +253,65 @@
               | Lavado y desinfección: los recipientes y el cuarto de basuras deben lavarse y desinfectarse periódicamente para evitar la acumulación de suciedad y la proliferación de plagas.
 
     separador
-    #t_9_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 9.4 Manejo de residuos orgánicos y aprovechables
+    .bg-full-width.bg-fondo-1
 
-    p.mb-4 El manejo de residuos en Colombia está regulado por diversas normas que establecen obligaciones para los generadores:
+      #t_9_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 9.4 Manejo de residuos orgánicos y aprovechables
 
-    
+      p.mb-4 El manejo de residuos en Colombia está regulado por diversas normas que establecen obligaciones para los generadores:
+
+      
+      .row.align-items-stretch.justify-content-center.mb-3
+        .col-md-12.col-lg-12.col-xl-12.mb-4(data-aos="fade-down")
+          .tarjeta.p-4.rounded-4.tarjeta-label.border-color-1.h-100
+            .row.justify-content-center.align-items-center.mb-0
+              .col-auto
+                figure
+                  img(src="@/assets/curso/tema7/img05.svg", alt="Normativa ambiental").mx-auto
+              .col
+                p.mb-0 <b>Ley 99 de 1993:</b> crea el Sistema Nacional Ambiental (SINA) y establece principios generales de protección ambiental aplicables a toda actividad productiva, incluyendo la obligación de prevenir y controlar la contaminación.
+
+        .col-md-12.col-lg-12.col-xl-12.mb-4(data-aos="fade-down")
+          .tarjeta.p-4.rounded-4.tarjeta-label.border-color-3.h-100
+            .row.justify-content-center.align-items-center.mb-0
+              .col-auto
+                figure
+                  img(src="@/assets/curso/tema7/img05.svg", alt="Normativa ambiental").mx-auto
+              .col
+                p.mb-0 <b>Ley 1259 de 2008:</b> instaura el Comparendo Ambiental como instrumento de cultura ciudadana para sancionar a quienes infrinjan la normativa de aseo y limpieza. Las sanciones pueden ser pedagógicas (cursos, talleres) o económicas (multas), y aplican por acciones como sacar basura en horarios no autorizados, no separar residuos, arrojar basura en espacios públicos, entre otras.
+
+        .col-md-12.col-lg-12.col-xl-12.mb-4(data-aos="fade-down")
+          .tarjeta.p-4.rounded-4.tarjeta-label.border-color-1.h-100
+            .row.justify-content-center.align-items-center.mb-0
+              .col-auto
+                figure
+                  img(src="@/assets/curso/tema7/img05.svg", alt="Normativa ambiental").mx-auto
+              .col
+                p.mb-3 <b>Decreto 2981 de 2013:</b> reglamenta la prestación del servicio público de aseo y establece las obligaciones de los usuarios, incluyendo:
+                ul.lista-ul--color
+                  li.mb-1
+                    i.fas.fa-circle-right.bg-color-4
+                    | Realizar la separación en la fuente de los residuos generados.
+                  li.mb-1
+                    i.fas.fa-circle-right.bg-color-4
+                    | Presentar los residuos para recolección en los horarios y frecuencias establecidos.
+                  li.mb-1
+                    i.fas.fa-circle-right.bg-color-4
+                    | Almacenar los residuos en condiciones que no generen riesgos sanitarios o ambientales.
+                  li.mb-1
+                    i.fas.fa-circle-right.bg-color-4
+                    | Pagar las tarifas por el servicio de aseo.
+
+        .col-md-12.col-lg-12.col-xl-12.mb-4(data-aos="fade-down")
+          .tarjeta.p-4.rounded-4.tarjeta-label.border-color-3.h-100
+            .row.justify-content-center.align-items-center.mb-0
+              .col-auto
+                figure
+                  img(src="@/assets/curso/tema7/img05.svg", alt="Normativa ambiental").mx-auto
+              .col
+                p.mb-0 <b>Resolución 2184 de 2019:</b> adopta el código de colores para la separación de residuos sólidos (verde, blanco, negro) y establece la obligatoriedad de su implementación a nivel nacional.
+
     .row.align-items-stretch.justify-content-center.mb-3
-      .col-md-12.col-lg-12.col-xl-12.mb-4(data-aos="fade-down")
-        .tarjeta.p-4.rounded-4.tarjeta-label.border-color-1.h-100
-          .row.justify-content-center.align-items-center.mb-0
-            .col-auto
-              figure
-                img(src="@/assets/curso/tema7/img05.svg", alt="Normativa ambiental").mx-auto
-            .col
-              p.mb-0 <b>Ley 99 de 1993:</b> crea el Sistema Nacional Ambiental (SINA) y establece principios generales de protección ambiental aplicables a toda actividad productiva, incluyendo la obligación de prevenir y controlar la contaminación.
-
-      .col-md-12.col-lg-12.col-xl-12.mb-4(data-aos="fade-down")
-        .tarjeta.p-4.rounded-4.tarjeta-label.border-color-3.h-100
-          .row.justify-content-center.align-items-center.mb-0
-            .col-auto
-              figure
-                img(src="@/assets/curso/tema7/img05.svg", alt="Normativa ambiental").mx-auto
-            .col
-              p.mb-0 <b>Ley 1259 de 2008:</b> instaura el Comparendo Ambiental como instrumento de cultura ciudadana para sancionar a quienes infrinjan la normativa de aseo y limpieza. Las sanciones pueden ser pedagógicas (cursos, talleres) o económicas (multas), y aplican por acciones como sacar basura en horarios no autorizados, no separar residuos, arrojar basura en espacios públicos, entre otras.
-
-      .col-md-12.col-lg-12.col-xl-12.mb-4(data-aos="fade-down")
-        .tarjeta.p-4.rounded-4.tarjeta-label.border-color-1.h-100
-          .row.justify-content-center.align-items-center.mb-0
-            .col-auto
-              figure
-                img(src="@/assets/curso/tema7/img05.svg", alt="Normativa ambiental").mx-auto
-            .col
-              p.mb-3 <b>Decreto 2981 de 2013:</b> reglamenta la prestación del servicio público de aseo y establece las obligaciones de los usuarios, incluyendo:
-              ul.lista-ul--color
-                li.mb-1
-                  i.fas.fa-circle-right.bg-color-4
-                  | Realizar la separación en la fuente de los residuos generados.
-                li.mb-1
-                  i.fas.fa-circle-right.bg-color-4
-                  | Presentar los residuos para recolección en los horarios y frecuencias establecidos.
-                li.mb-1
-                  i.fas.fa-circle-right.bg-color-4
-                  | Almacenar los residuos en condiciones que no generen riesgos sanitarios o ambientales.
-                li.mb-1
-                  i.fas.fa-circle-right.bg-color-4
-                  | Pagar las tarifas por el servicio de aseo.
-
-      .col-md-12.col-lg-12.col-xl-12.mb-4(data-aos="fade-down")
-        .tarjeta.p-4.rounded-4.tarjeta-label.border-color-3.h-100
-          .row.justify-content-center.align-items-center.mb-0
-            .col-auto
-              figure
-                img(src="@/assets/curso/tema7/img05.svg", alt="Normativa ambiental").mx-auto
-            .col
-              p.mb-0 <b>Resolución 2184 de 2019:</b> adopta el código de colores para la separación de residuos sólidos (verde, blanco, negro) y establece la obligatoriedad de su implementación a nivel nacional.
-
       .col-md-12.col-lg-12.col-xl-12.mb-4(data-aos="fade-down")
         .tarjeta.p-4.rounded-4.tarjeta-label.border-color-1.h-100
           .row.justify-content-center.align-items-center.mb-0

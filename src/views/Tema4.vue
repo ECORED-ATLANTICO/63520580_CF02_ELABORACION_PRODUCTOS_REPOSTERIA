@@ -10,7 +10,7 @@
     img(src="@/assets/curso/tema4/img01.png", alt="")
     
     .row.justify-content-center.align-items-center.z-2.mb-5
-      .col-lg-8(data-aos="fade-up")
+      .col-lg-10(data-aos="fade-up")
         p.banner-text La elaboración de productos de repostería más complejos implica la aplicación de técnicas específicas que combinan diferentes preparaciones base. Estas técnicas especializadas, como las empleadas en natillas, mousses o postres helados requieren un conocimiento profundo de los fenómenos físicos y químicos que ocurren durante su proceso, así como un manejo cuidadoso de los ingredientes y las temperaturas.
 
     separador

@@ -14,7 +14,7 @@
         
         .row.justify-content-center.align-items-center.z-2.mb-0
           .col-lg-10(data-aos="fade-up")
-            p.banner-text La garantía de calidad e inocuidad es un pilar fundamental en la producción de alimentos, especialmente en repostería, donde el uso de ingredientes perecederos como lácteos y huevos implica riesgos específicos. La aplicación de parámetros de control, buenas prácticas de manufactura y la identificación de puntos críticos constituyen herramientas esenciales para proteger la salud del consumidor y asegurar la excelencia del producto final.
+            p.banner-text(style="background-color: #ffffff !important") La garantía de calidad e inocuidad es un pilar fundamental en la producción de alimentos, especialmente en repostería, donde el uso de ingredientes perecederos como lácteos y huevos implica riesgos específicos. La aplicación de parámetros de control, buenas prácticas de manufactura y la identificación de puntos críticos constituyen herramientas esenciales para proteger la salud del consumidor y asegurar la excelencia del producto final.
       
     separador
     
