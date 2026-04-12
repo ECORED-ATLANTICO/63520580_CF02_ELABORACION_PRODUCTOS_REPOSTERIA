@@ -34,7 +34,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-auto
                 figure
-                  img(src="@/assets/curso/tema7/img02.svg", alt="Icono formato").mx-auto
+                  img(src="@/assets/curso/tema8/img02.svg", alt="Icono formato").mx-auto
               .col
                 p.mb-0 <b>Orden de producción:</b> documento que autoriza formalmente la elaboración de determinados productos, especificando cantidades, fechas de elaboración y entrega, responsable de la producción, y observaciones especiales. Este formato permite planificar la producción y coordinar el abastecimiento de materias primas.
 
@@ -43,7 +43,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-auto
                 figure
-                  img(src="@/assets/curso/tema7/img03.svg", alt="Icono formato").mx-auto
+                  img(src="@/assets/curso/tema8/img03.svg", alt="Icono formato").mx-auto
               .col
                 p.mb-0 <b>Hoja de costos o escandallo:</b> formato técnico donde se registra la composición detallada de cada producto: ingredientes con sus cantidades exactas, costos unitarios y totales, rendimiento esperado, y costo por porción o unidad. Este documento es la base para la fijación de precios y para el control de rentabilidad.
 
@@ -52,7 +52,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-auto
                 figure
-                  img(src="@/assets/curso/tema7/img02.svg", alt="Icono formato").mx-auto
+                  img(src="@/assets/curso/tema8/img02.svg", alt="Icono formato").mx-auto
               .col
                 p.mb-0 <b>Control de inventarios:</b> registro sistemático de entradas y salidas de materias primas, que incluye fechas, cantidades, proveedores, lotes, fechas de vencimiento y saldos actualizados. Este control permite prevenir desabastecimientos, detectar pérdidas por vencimiento y optimizar las compras.
 
@@ -61,7 +61,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-auto
                 figure
-                  img(src="@/assets/curso/tema7/img03.svg", alt="Icono formato").mx-auto
+                  img(src="@/assets/curso/tema8/img03.svg", alt="Icono formato").mx-auto
               .col
                 p.mb-0 <b>Control de temperaturas:</b> formato diario para registrar las temperaturas de los equipos de refrigeración y congelación, así como de los productos durante la recepción y el almacenamiento. Este registro es esencial para verificar el cumplimiento de las condiciones de conservación y para detectar desviaciones a tiempo.
 
@@ -71,7 +71,7 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-auto
               figure
-                img(src="@/assets/curso/tema7/img02.svg", alt="Icono formato").mx-auto
+                img(src="@/assets/curso/tema8/img02.svg", alt="Icono formato").mx-auto
             .col
               p.mb-0 <b>Registro de limpieza y desinfección:</b> formato donde se consignan las actividades de limpieza realizadas en las diferentes áreas, incluyendo fecha, hora, área intervenida, productos utilizados, responsable y verificación. Este registro es exigido por las autoridades sanitarias y constituye evidencia del cumplimiento de las BPM.
 
@@ -80,7 +80,7 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-auto
               figure
-                img(src="@/assets/curso/tema7/img03.svg", alt="Icono formato").mx-auto
+                img(src="@/assets/curso/tema8/img03.svg", alt="Icono formato").mx-auto
             .col
               p.mb-0 <b>Reporte de producción diaria:</b> formato que resume los productos elaborados en una jornada, con cantidades, lotes de producción, fechas de elaboración y vencimiento, y responsable. Permite llevar un histórico de la producción y facilita la trazabilidad.
 
@@ -89,7 +89,7 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-auto
               figure
-                img(src="@/assets/curso/tema7/img02.svg", alt="Icono formato").mx-auto
+                img(src="@/assets/curso/tema8/img02.svg", alt="Icono formato").mx-auto
             .col
               p.mb-0 <b>Control de calidad:</b> formato para registrar los resultados de las verificaciones de calidad realizadas a materias primas, productos en proceso y productos terminados. Incluye parámetros como color, olor, textura, temperatura, peso, entre otros.
 
