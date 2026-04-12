@@ -7,7 +7,7 @@
         span 4
       h1 Productos de repostería: técnicas especializadas
 
-    img(src="@/assets/curso/tema4/img01.png", alt="Imagen decorativa")
+    img(src="@/assets/curso/tema4/img01.png", alt="")
     
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-lg-8(data-aos="fade-up")

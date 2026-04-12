@@ -3,12 +3,17 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 20%
-    right: 10%
+    right: 73%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 3%
+    right: 7%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 73%
+    right: 24%
 
 @keyframes float1
   0%
@@ -268,9 +273,10 @@ figcaption
 
 // Tabs A
 .tabs-a__tab
-  background-color: #E8F1FE
+  background-color: #EBF4FF
 .tabs-a.color-acento-botones .tabs-a__tab__selected
-  background-color: #1C6DDB
+  background-color: #941FF0
+  color: white
 .tabs-a__content-item
   display: flex
   height: 100%
@@ -305,20 +311,35 @@ figcaption
 
 // Tabs C
 .tabs-c__tab
-  border-bottom: 4px solid #E6D062
-  background-color: #FFF5C4 !important
+  border-top: 4px solid #EBF4FF
+  background-color: #EBF4FF !important
+  border-bottom: 4px solid #EBF4FF
+.tabs-c__tab:after
+  background-color: #AFAFAF !important
+  width: 3px !important
+  height: 100% !important
+.tabs-c__tab--active
+  border-bottom-color: #FFF4E5 !important
+.tabs-c__tab--active:before
+  border-bottom-color: #FFF4E5 !important
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  border-top-color: #941FF0 !important
+  border-bottom-color: #FFF4E5 !important
+.tabs-c.color-acento-botones .tabs-c__tab--active:before
+  border-bottom-color: #FFF4E5 !important
+  border-top-color: #FFF4E5 !important
 .tabs-c.color-primario .tabs-c__tab--active
-  border-bottom-color: #2079F3 !important
+  border-top-color: red !important
 .tabs-c.color-primario .tabs-c__tab--active:before
-  border-top-color: #2079F3 !important
+  border-top-color: red !important
 .tabs-c__content-item
-  background-color: #E8F1FE
+  background-color: #FFF4E5
   // background-image: url("../assets/curso/bg3.png") !important
   background-size: cover
 .tabs-c__header
   margin-bottom: 0
 .tabs-c__tab--active
-  background-color: transparent !important
+  background-color: #FFF4E5 !important
 
 // // Acordion
 // .acordion
@@ -520,19 +541,19 @@ a, button, div
   background-color: #C5CFF0
 
 .tarjeta.color-acento-botones--borde
-  background-color: #E8F1FE
+  background-color: #FFF4E5
   color: #000
-  border: solid 4px #E8F1FE !important
+  border: solid 4px #FFF4E5 !important
+  height: fit-content !important
+// .tabs-a.color-acento-botones .tabs-a__tab__selected:before
+//   background-color: #1C6DDB !important
 
-.tabs-a.color-acento-botones .tabs-a__tab__selected:before
-  background-color: #1C6DDB !important
+// .tabs-a.color-acento-botones .tabs-a__tab__selected:hover
+//   background-color: #BBD6FC !important
 
-.tabs-a.color-acento-botones .tabs-a__tab__selected:hover
-  background-color: #BBD6FC !important
-
-.tabs-a.color-acento-botones .tabs-a__tab:hover
-  background-color: #BBD6FC !important
-  color: #000 !important
+// .tabs-a.color-acento-botones .tabs-a__tab:hover
+//   background-color: #BBD6FC !important
+//   color: #000 !important
 
   //////////////CUSTON SLYDER-A////////
 .slyder-a__bullets__item
@@ -579,7 +600,7 @@ a, button, div
   align-items: center
   position: relative
 .titulo-con-imagen__fondo
-  background-color: #1DF2F2
+  background-color: #E2DACC
   // background-image: url("../assets/curso/bg/bg-titulo-01.svg")
   // background-size: cover
   border-radius: 0px 20px 20px 0px
@@ -589,10 +610,10 @@ a, button, div
 .titulo-con-imagen__imagen
   position: absolute
   left: -12px
-  width: 50px
+  width: 65px
 .titulo-con-imagen__texto
   margin: 0
-  padding-left: 25px
+  padding-left: 45px
 
 .img-topright
   padding: 4.5rem 2rem 3rem !important
@@ -809,6 +830,9 @@ a, button, div
 .border-color-1
   border: 3px solid #FFC8AC !important
 
+.border-color-3
+  border: 3px solid #9EC9FF !important
+
 .border-color-2
   background-color: #E1E7FB !important
   border: 4px solid #FFFFFF !important
@@ -818,3 +842,29 @@ a, button, div
 
 .slyder-f .slyder-f__btn .fa-chevron-left, .slyder-f .slyder-f__btn .fa-chevron-right
   color: #fff !important
+
+///// slyder --------------------------------------
+.tarjeta--slyder
+  height: 100%
+  background-color: white
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+
+.custom
+  .horizontal-scroll__wrapper
+    padding: 2rem 0.5rem
+
+.custom
+  .horizontal-scroll
+    align-items: stretch !important
+
+.tarjeta-numerada.bg-color-91
+  border-color: #FFCD80 !important
+
+.tarjeta-numerada.bg-color-91 .tarjeta-numerada__numero
+  background-color: #FFCD80 !important
+
+.tarjeta-numerada.bg-color-4
+  border-color: #9EC9FF !important
+
+.tarjeta-numerada.bg-color-4 .tarjeta-numerada__numero
+  background-color: #9EC9FF !important

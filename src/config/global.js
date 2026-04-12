@@ -6,16 +6,20 @@ export default {
       'Este componente formativo tiene como objetivo fundamental que el aprendiz desarrolle habilidades prácticas para la elaboración de diversos productos de repostería, aplicando técnicas estandarizadas, controles de calidad e inocuidad, así como competencias administrativas para la gestión de costos, formatos de producción y manejo ambiental de residuos, según la normativa vigente.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    // imagenesDecorativasBanner: [
-    //   {
-    //     clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-    //     imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-    //   },
-    //   {
-    //     clases: ['banner-principal-decorativo-2'],
-    //     imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-    //   },
-    // ],
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [
@@ -274,11 +278,11 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
+      // {
+      //   nombreRuta: 'complementario',
+      //   icono: 'far fa-folder-open',
+      //   titulo: 'Material complementario',
+      // },
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
