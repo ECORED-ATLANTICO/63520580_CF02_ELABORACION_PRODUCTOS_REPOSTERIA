@@ -45,7 +45,7 @@
                   p.ms-5 Corresponden a aquellos gastos necesarios para la operación pero que no pueden asignarse directamente a un producto en particular, sino que deben distribuirse entre todos los productos elaborados. Ejemplos de costos indirectos en repostería son: servicios públicos (energía eléctrica, gas, agua), materiales de limpieza y desinfección, mantenimiento de equipos, arriendo del local, salarios del personal administrativo y de supervisión, y publicidad.
                 .col-lg-5.col-md-8
                   figure
-                    img(src="@/assets/curso/tema7/img03.png", alt="Costo indirecto").mx-auto
+                    img(src="@/assets/curso/tema7/img04.png", alt="Costo indirecto").mx-auto
 
             div(titulo="Costo fijo")
               .row.justify-content-center.align-items-center
@@ -53,7 +53,7 @@
                   p.ms-5 Son aquellos que permanecen constantes independientemente del volumen de producción, dentro de un rango determinado de operación. En un negocio de repostería, los costos fijos incluyen el arriendo del local, los salarios del personal con contrato fijo, los seguros, las licencias de funcionamiento, y la depreciación de equipos. Estos costos deben cubrirse incluso en períodos de baja producción.
                 .col-lg-5.col-md-8
                   figure
-                    img(src="@/assets/curso/tema7/img03.png", alt="Costo fijo").mx-auto
+                    img(src="@/assets/curso/tema7/img05.png", alt="Costo fijo").mx-auto
 
             div(titulo="Costo variable")
               .row.justify-content-center.align-items-center
@@ -61,7 +61,7 @@
                   p.ms-5 Son aquellos que fluctúan en proporción directa al volumen de producción. A mayor cantidad de productos elaborados, mayores serán los costos variables. En repostería, los principales costos variables son las materias primas, los empaques, el combustible (gas) y, en algunos casos, la mano de obra por horas o por destajo.
                 .col-lg-5.col-md-8
                   figure
-                    img(src="@/assets/curso/tema7/img03.png", alt="Costo variable").mx-auto
+                    img(src="@/assets/curso/tema7/img06.png", alt="Costo variable").mx-auto
 
 
     separador
@@ -76,7 +76,7 @@
     .container.mb-5
       .titulo-con-imagen.mb-0(data-aos="fade-right")
         .titulo-con-imagen__fondo
-          img.titulo-con-imagen__imagen(src="@/assets/curso/tema6/img04.svg")
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema6/img4.svg")
           h3.titulo-con-imagen__texto Rendimiento
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -96,7 +96,7 @@
 
       .col-lg-4.col-md-8
         figure
-          img(src="@/assets/curso/tema7/img04.png", alt="Rendimiento").mx-auto
+          img(src="@/assets/curso/tema7/img07.png", alt="Rendimiento").mx-auto
         
 
     .container
@@ -115,7 +115,7 @@
     .container.mb-5
       .titulo-con-imagen.mb-0(data-aos="fade-right")
         .titulo-con-imagen__fondo
-          img.titulo-con-imagen__imagen(src="@/assets/curso/tema6/img04.svg")
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema6/img4.svg")
           h3.titulo-con-imagen__texto Cálculo del costo real de una receta
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -209,7 +209,7 @@
           .row.justify-content-center.align-items-center.mb-3
             .col-auto
               figure
-                img(src="@/assets/curso/tema7/img05.svg", alt="Método de costo más margen").mx-auto
+                img(src="@/assets/curso/tema7/img08.svg", alt="Método de costo más margen").mx-auto
             .col
               p.mb-0 <b>Método del factor (sobre costo de materia prima):</b> este método consiste en multiplicar el costo de la materia prima por un factor que cubra los demás costos (mano de obra, costos indirectos, gastos fijos) y la utilidad deseada.
 
@@ -228,14 +228,18 @@
           
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-8.mb-4.mb-lg-0
+      .col-lg-4.col-md-8.mb-4.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema7/img09.png", alt="Método de costo más margen").mx-auto
+
+      .col-lg-8
         .row.align-items-center.justify-content-center
           .col-md-12.col-lg-12.col-xl-12(data-aos="fade-down")
             .tarjeta.p-4.rounded-4.tarjeta-label.border-color-3.h-100
               .row.justify-content-center.align-items-center.mb-3
                 .col-auto
                   figure
-                    img(src="@/assets/curso/tema7/img05.svg", alt="Método de costo más margen").mx-auto
+                    img(src="@/assets/curso/tema7/img10.svg", alt="Método de costo más margen").mx-auto
                 .col
                   p.mb-0 <b>Método del costo total más margen:</b> este método considera todos los costos asociados al producto (materia prima, mano de obra directa, costos indirectos asignados) y sobre ese total se aplica un margen de utilidad.
                   
@@ -251,11 +255,6 @@
                     | $15.000 × 1.4 = $21.000
               
 
-      .col-lg-4.col-md-8
-        figure
-          img(src="@/assets/curso/tema7/img04.png", alt="Método de costo más margen").mx-auto
-
-
 
     .row.align-items-stretch.justify-content-center.mb-3
       .col-md-12.col-lg-12.col-xl-12.mb-4(data-aos="fade-down")
@@ -263,7 +262,7 @@
           .row.justify-content-center.align-items-center.mb-3
             .col-auto
               figure
-                img(src="@/assets/curso/tema7/img05.svg", alt="Método de costo más margen").mx-auto
+                img(src="@/assets/curso/tema7/img11.svg", alt="Método de costo más margen").mx-auto
             .col
               p.mb-0 <b>Método basado en el mercado:</b> este método parte del análisis de los precios de la competencia y de la disposición a pagar del mercado objetivo. El precio se fija en un rango competitivo, y luego se verifica que los costos permitan operar con rentabilidad dentro de ese rango. Si los costos son superiores al precio de mercado, es necesario reducir costos, mejorar la eficiencia o diferenciar el producto para justificar un precio superior.
               

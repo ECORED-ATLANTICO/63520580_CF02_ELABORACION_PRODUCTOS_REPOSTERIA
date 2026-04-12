@@ -34,7 +34,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-auto
                 figure
-                  img(src="@/assets/curso/tema7/img05.svg", alt="Icono formato").mx-auto
+                  img(src="@/assets/curso/tema7/img02.svg", alt="Icono formato").mx-auto
               .col
                 p.mb-0 <b>Orden de producción:</b> documento que autoriza formalmente la elaboración de determinados productos, especificando cantidades, fechas de elaboración y entrega, responsable de la producción, y observaciones especiales. Este formato permite planificar la producción y coordinar el abastecimiento de materias primas.
 
@@ -43,7 +43,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-auto
                 figure
-                  img(src="@/assets/curso/tema7/img05.svg", alt="Icono formato").mx-auto
+                  img(src="@/assets/curso/tema7/img03.svg", alt="Icono formato").mx-auto
               .col
                 p.mb-0 <b>Hoja de costos o escandallo:</b> formato técnico donde se registra la composición detallada de cada producto: ingredientes con sus cantidades exactas, costos unitarios y totales, rendimiento esperado, y costo por porción o unidad. Este documento es la base para la fijación de precios y para el control de rentabilidad.
 
@@ -52,7 +52,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-auto
                 figure
-                  img(src="@/assets/curso/tema7/img05.svg", alt="Icono formato").mx-auto
+                  img(src="@/assets/curso/tema7/img02.svg", alt="Icono formato").mx-auto
               .col
                 p.mb-0 <b>Control de inventarios:</b> registro sistemático de entradas y salidas de materias primas, que incluye fechas, cantidades, proveedores, lotes, fechas de vencimiento y saldos actualizados. Este control permite prevenir desabastecimientos, detectar pérdidas por vencimiento y optimizar las compras.
 
@@ -61,7 +61,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-auto
                 figure
-                  img(src="@/assets/curso/tema7/img05.svg", alt="Icono formato").mx-auto
+                  img(src="@/assets/curso/tema7/img03.svg", alt="Icono formato").mx-auto
               .col
                 p.mb-0 <b>Control de temperaturas:</b> formato diario para registrar las temperaturas de los equipos de refrigeración y congelación, así como de los productos durante la recepción y el almacenamiento. Este registro es esencial para verificar el cumplimiento de las condiciones de conservación y para detectar desviaciones a tiempo.
 
@@ -71,7 +71,7 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-auto
               figure
-                img(src="@/assets/curso/tema7/img05.svg", alt="Icono formato").mx-auto
+                img(src="@/assets/curso/tema7/img02.svg", alt="Icono formato").mx-auto
             .col
               p.mb-0 <b>Registro de limpieza y desinfección:</b> formato donde se consignan las actividades de limpieza realizadas en las diferentes áreas, incluyendo fecha, hora, área intervenida, productos utilizados, responsable y verificación. Este registro es exigido por las autoridades sanitarias y constituye evidencia del cumplimiento de las BPM.
 
@@ -80,7 +80,7 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-auto
               figure
-                img(src="@/assets/curso/tema7/img05.svg", alt="Icono formato").mx-auto
+                img(src="@/assets/curso/tema7/img03.svg", alt="Icono formato").mx-auto
             .col
               p.mb-0 <b>Reporte de producción diaria:</b> formato que resume los productos elaborados en una jornada, con cantidades, lotes de producción, fechas de elaboración y vencimiento, y responsable. Permite llevar un histórico de la producción y facilita la trazabilidad.
 
@@ -89,7 +89,7 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-auto
               figure
-                img(src="@/assets/curso/tema7/img05.svg", alt="Icono formato").mx-auto
+                img(src="@/assets/curso/tema7/img02.svg", alt="Icono formato").mx-auto
             .col
               p.mb-0 <b>Control de calidad:</b> formato para registrar los resultados de las verificaciones de calidad realizadas a materias primas, productos en proceso y productos terminados. Incluye parámetros como color, olor, textura, temperatura, peso, entre otros.
 
@@ -150,7 +150,7 @@
       .row.mb-5.justify-content-center.align-items-center
         .col-md-8.col-lg-3.mb-3.mb-lg-0
           figure
-            img(src="@/assets/curso/tema8/img02.png", data-aos="zoom-in")
+            img(src="@/assets/curso/tema8/img04.png", data-aos="zoom-in")
         .col-lg-9
           TabsA.color-acento-botones
             .tarjeta.color-acento-botones--borde.p-4(titulo="Legibilidad")
@@ -183,7 +183,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-4.col-md-8.mb-4.mb-lg-0
         figure
-          img(src="@/assets/curso/tema8/img03.png", alt="Reporte de novedades e incidencias").mx-auto
+          img(src="@/assets/curso/tema8/img05.png", alt="Reporte de novedades e incidencias").mx-auto
       .col-lg-8
         p.mb-3 Cualquier situación anormal, desviación o incidente que ocurra durante el proceso productivo debe ser documentada mediante un reporte de novedades. Este reporte tiene como objetivo:
         ul.lista-ul--color
@@ -205,7 +205,7 @@
       .col-md-12.col-lg-6.mb-4(data-aos="fade-down")
         .tarjeta.bg-color-5.p-4.rounded-4.tarjeta-label.border-color-1.ms-md-5.h-100
           .tarjeta-label__img-wrapper
-            img(src='@/assets/curso/tema8/img04.svg' alt='Masa sucrée')
+            img(src='@/assets/curso/tema8/img06.svg' alt='Masa sucrée')
           .ms-lg-5.ms-0.ps-md-3
             h4.mb-2 Situaciones que requieren reporte:
             ul.lista-ul--color
@@ -237,7 +237,7 @@
       .col-md-12.col-lg-6.mb-4(data-aos="fade-up")
         .tarjeta.bg-color-5.p-4.rounded-4.tarjeta-label.border-color-1.ms-md-5.h-100
           .tarjeta-label__img-wrapper
-            img(src="@/assets/curso/tema8/img05.svg", alt="Masa sablée")
+            img(src="@/assets/curso/tema8/img07.svg", alt="Masa sablée")
           .ms-lg-5.ms-0.ps-md-3
             h4.mb-2 Estructura de un reporte de novedades:
             ul.lista-ul--color

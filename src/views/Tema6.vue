@@ -140,35 +140,35 @@
             .tarjeta.tarjeta--slyder.p-4
               .row.mb-3
                 .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img03.svg' alt='Almacenamiento')
+                  img(src='@/assets/curso/tema6/img04.svg' alt='Almacenamiento')
               h4.text-center Almacenamiento
               p.mb-0 Respetar temperaturas (refrigeración ≤ 4 °C, congelación ≤- 18 °C), fechas de vencimiento, rotación PEPS (primero en entrar, primero en salir) y separación de crudos y cocidos.
 
             .tarjeta.tarjeta--slyder.p-4
               .row.mb-3
                 .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img03.svg' alt='Preparación (mise en place)')
+                  img(src='@/assets/curso/tema6/img05.svg' alt='Preparación (mise en place)')
               h4.text-center Preparación (mise en place)
               p.mb-0 Aplicar código de colores (tablas y cuchillos), lavado de manos frecuente (5 momentos), evitar contaminación cruzada, mantener superficies limpias y desinfectadas.
 
             .tarjeta.tarjeta--slyder.p-4
               .row.mb-3
                 .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img03.svg' alt='Cocción')
+                  img(src='@/assets/curso/tema6/img06.svg' alt='Cocción')
               h4.text-center Cocción
               p.mb-0 Verificar temperaturas internas con termómetro: 74 °C para preparaciones con huevo (flan, natillas), 85 °C para crema pastelera, 74 °C para carnes (si se usan).
 
             .tarjeta.tarjeta--slyder.p-4
               .row.mb-3
                 .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img03.svg' alt='Enfriamiento')
+                  img(src='@/assets/curso/tema6/img07.svg' alt='Enfriamiento')
               h4.text-center Enfriamiento
               p.mb-0 Enfriar rápidamente preparaciones calientes: de 60 °C a 21 °C en máximo 2 horas, y de 21 °C a 4 °C en máximo 4 horas. Utilizar baños de hielo, recipientes poco profundos o abatidores de temperatura.
 
             .tarjeta.tarjeta--slyder.p-4
               .row.mb-3
                 .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img03.svg' alt='Servicio y conservación')
+                  img(src='@/assets/curso/tema6/img08.svg' alt='Servicio y conservación')
               h4.text-center Servicio y conservación
               p.mb-0 Mantener temperaturas seguras: fríos ≤ 4 °C, calientes ≥ 60 °C.
 
@@ -242,7 +242,7 @@
       .container
         .titulo-con-imagen.mb-0(data-aos="fade-right")
           .titulo-con-imagen__fondo
-            img.titulo-con-imagen__imagen(src="@/assets/curso/tema6/img04.svg")
+            img.titulo-con-imagen__imagen(src="@/assets/curso/tema6/img4.svg")
             h3.titulo-con-imagen__texto Prevención de accidentes
       
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -251,87 +251,87 @@
             .tarjeta.tarjeta--slyder.p-4
               .row.mb-3
                 .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img03.svg' alt='Cortes')
+                  img(src='@/assets/curso/tema6/img09.svg' alt='Cortes')
               h4.text-center Cortes
               p.mb-0 Usar cuchillos bien afilados (los cuchillos sin filo causan más accidentes al requerir mayor fuerza), utilizar la técnica correcta de corte ("mano de garra" para guiar el alimento), almacenar cuchillos en guardas, rieleras o tablas magnéticas, nunca dejarlos sumergidos en agua.
 
             .tarjeta.tarjeta--slyder.p-4
               .row.mb-3
                 .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img03.svg' alt='Quemaduras')
+                  img(src='@/assets/curso/tema6/img10.svg' alt='Quemaduras')
               h4.text-center Quemaduras
               p.mb-0 Usar agarraderas secas (la humedad conduce el calor), abrir las tapas de las ollas en dirección opuesta al cuerpo para evitar quemaduras por vapor, tener cuidado con el aceite caliente (no agregar agua), usar mangas largas de algodón.
 
             .tarjeta.tarjeta--slyder.p-4
               .row.mb-3
                 .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img03.svg' alt='Caídas')
+                  img(src='@/assets/curso/tema6/img11.svg' alt='Caídas')
               h4.text-center Caídas
               p.mb-0 Limpiar derrames inmediatamente, usar calzado antideslizante con puntera de seguridad, mantener pasillos y áreas de circulación libres de obstáculos, usar señalización en pisos recién trapeados.
 
             .tarjeta.tarjeta--slyder.p-4
               .row.mb-3
                 .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img03.svg' alt='Golpes')
+                  img(src='@/assets/curso/tema6/img12.svg' alt='Golpes')
               h4.text-center Golpes
               p.mb-0 Abrir puertas de armarios con cuidado, no almacenar objetos pesados en estantes altos sin asegurarlos.
 
             .tarjeta.tarjeta--slyder.p-4
               .row.mb-3
                 .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img03.svg' alt='Sobre esfuerzos')
+                  img(src='@/assets/curso/tema6/img13.svg' alt='Sobre esfuerzos')
               h4.text-center Sobre esfuerzos
               p.mb-0 Utilizar técnica correcta para levantar objetos pesados (doblar rodillas, mantener la espalda recta), usar carros de transporte para cargas pesadas, solicitar ayuda cuando sea necesario.
         .col-lg-4.col-md-8
           figure
-            img(src='@/assets/curso/tema6/img02.png', alt='')
+            img(src='@/assets/curso/tema6/img14.png', alt='')
 
  
     .bg-full-width.bg-fondo-1
       .container.mb-5
         .titulo-con-imagen.mb-0(data-aos="fade-right")
           .titulo-con-imagen__fondo
-            img.titulo-con-imagen__imagen(src="@/assets/curso/tema6/img04.svg")
+            img.titulo-con-imagen__imagen(src="@/assets/curso/tema6/img4.svg")
             h3.titulo-con-imagen__texto Uso correcto de elementos de protección personal (EPP)
     
       .row.align-items-center.justify-content-center.mb-5(data-aos="fade-right")
         .col-md-8.col-lg-4.order-2.order-lg-1
           figure
-            img(src='@/assets/curso/tema6/img02.png', alt='')
+            img(src='@/assets/curso/tema6/img15.png', alt='')
         .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-2
           SlyderF.custom(columnas="col-md-12 col-lg-6")
             .tarjeta.tarjeta--slyder.p-4
               .row.mb-3
                 .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img03.svg' alt='Cortes')
+                  img(src='@/assets/curso/tema6/img16.svg' alt='Cortes')
               h4.text-center Calzado antideslizante
               p.mb-0 Obligatorio en toda cocina, con puntera de seguridad recomendada.
 
             .tarjeta.tarjeta--slyder.p-4
               .row.mb-3
                 .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img03.svg' alt='Cortes')
+                  img(src='@/assets/curso/tema6/img17.svg' alt='Cortes')
               h4.text-center Delantal
               p.mb-0 Protege la ropa de trabajo y la piel de salpicaduras calientes y líquidos.
 
             .tarjeta.tarjeta--slyder.p-4
               .row.mb-3
                 .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img03.svg' alt='Cortes')
+                  img(src='@/assets/curso/tema6/img18.svg' alt='Cortes')
               h4.text-center Gorro o cofia
               p.mb-0 Contiene el cabello y evita su caída en los alimentos. Debe cubrir todo el cabello.
 
             .tarjeta.tarjeta--slyder.p-4
               .row.mb-3
                 .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img03.svg' alt='Cortes')
+                  img(src='@/assets/curso/tema6/img19.svg' alt='Cortes')
               h4.text-center Guantes
               p.mb-0 Para manipulación de alimentos listos para consumo, nunca como sustituto del lavado de manos. Deben cambiarse frecuentemente.
 
             .tarjeta.tarjeta--slyder.p-4
               .row.mb-3
                 .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img03.svg' alt='Cortes')
+                  img(src='@/assets/curso/tema6/img20.svg' alt='Cortes')
               h4.text-center Tapabocas
               p.mb-0 Obligatorio en áreas de preparación de alimentos listos para consumo y cuando se tenga alguna afección respiratoria.
 
@@ -351,7 +351,7 @@
           .row.justify-content-center.align-items-center
             .col-auto.mb-3.mb-lg-0.d-none.d-lg-flex
               figure
-                img(src="@/assets/curso/tema6/img05.svg", data-aos="zoom-in")
+                img(src="@/assets/curso/tema6/img21.png", data-aos="zoom-in")
             .col-lg
               p.mb-0(data-aos="fade-right") <b>Ley 1259 de 2008:</b> establece el Comparendo Ambiental como instrumento de cultura ciudadana para sancionar a quienes infrinjan la normativa de aseo y limpieza (mal manejo de residuos).
     
@@ -360,7 +360,7 @@
           .row.justify-content-center.align-items-center
             .col-auto.mb-3.mb-lg-0.d-none.d-lg-flex
               figure
-                img(src="@/assets/curso/tema6/img05.svg", data-aos="zoom-in")
+                img(src="@/assets/curso/tema6/img22.png", data-aos="zoom-in")
             .col-lg
               p.mb-0(data-aos="fade-right") <b>Decreto 2981 de 2013:</b> regula la prestación del servicio público de aseo y la gestión integral de residuos sólidos, incluyendo la obligación de los generadores de realizar separación en la fuente.
 
@@ -369,7 +369,7 @@
           .row.justify-content-center.align-items-center
             .col-auto.mb-3.mb-lg-0.d-none.d-lg-flex
               figure
-                img(src="@/assets/curso/tema6/img05.svg", data-aos="zoom-in")
+                img(src="@/assets/curso/tema6/img21.png", data-aos="zoom-in")
             .col-lg
               p.mb-0(data-aos="fade-right") <b>Resolución 2184 de 2019:</b> adopta el código de colores para la separación de residuos sólidos: verde (orgánicos aprovechables), blanco (aprovechables como plástico, vidrio, papel) y negro (no aprovechables).
 
@@ -378,7 +378,7 @@
           .row.justify-content-center.align-items-center
             .col-auto.mb-3.mb-lg-0.d-none.d-lg-flex
               figure
-                img(src="@/assets/curso/tema6/img05.svg", data-aos="zoom-in")
+                img(src="@/assets/curso/tema6/img22.png", data-aos="zoom-in")
             .col-lg
               p.mb-0(data-aos="fade-right") <b>Ley 99 de 1993:</b> crea el Sistema Nacional Ambiental (SINA) y establece principios generales de protección ambiental aplicables a toda actividad productiva.
 </template>

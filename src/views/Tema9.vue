@@ -91,7 +91,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-4.col-md-8.mb-3.mb-lg-0.order-2.order-lg-1
                 figure
-                  img(src='@/assets/curso/tema9/img03.png', alt='')
+                  img(src='@/assets/curso/tema9/img04.png', alt='')
               .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-2
                 h4 Residuos inorgánicos aprovechables
                 p.mb-3 Pueden ser reciclados o reutilizados. Incluyen:
@@ -116,7 +116,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-4.col-md-8.mb-3.mb-lg-0.order-2.order-lg-1
                 figure
-                  img(src='@/assets/curso/tema9/img03.png', alt='')
+                  img(src='@/assets/curso/tema9/img05.png', alt='')
               .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-2
                 h4 No aprovechables
                 p.mb-3 Aquellos que no pueden ser reciclados por su composición, estado de contaminación o ausencia de tecnología para su procesamiento.
@@ -126,7 +126,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-4.col-md-8.mb-3.mb-lg-0.order-2.order-lg-1
                 figure
-                  img(src='@/assets/curso/tema9/img03.png', alt='')
+                  img(src='@/assets/curso/tema9/img06.png', alt='')
               .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-2
                 h4 Residuos peligrosos
                 p.mb-3 Son aquellos que, por sus características corrosivas, reactivas, explosivas, tóxicas, inflamables, infecciosas o radiactivas, pueden causar riesgo a la salud humana o al ambiente. En repostería, los residuos peligrosos más comunes son:
@@ -173,7 +173,7 @@
             | Cumple con la normativa vigente.
       .col-lg-4.col-md-8
         figure
-          img(src="@/assets/curso/tema9/img04.png", alt="Decoración en repostería").mx-auto
+          img(src="@/assets/curso/tema9/img07.png", alt="Decoración en repostería").mx-auto
         
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -228,7 +228,7 @@
 
       .col-lg-4.col-md-8
         figure
-          img(src="@/assets/curso/tema9/img05.png", alt="Decoración en repostería").mx-auto
+          img(src="@/assets/curso/tema9/img08.png", alt="Decoración en repostería").mx-auto
 
 
     .row.align-items-stretch.justify-content-center.mb-3
@@ -267,7 +267,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-auto
                 figure
-                  img(src="@/assets/curso/tema7/img05.svg", alt="Normativa ambiental").mx-auto
+                  img(src="@/assets/curso/tema9/img09.svg", alt="Normativa ambiental").mx-auto
               .col
                 p.mb-0 <b>Ley 99 de 1993:</b> crea el Sistema Nacional Ambiental (SINA) y establece principios generales de protección ambiental aplicables a toda actividad productiva, incluyendo la obligación de prevenir y controlar la contaminación.
 
@@ -276,7 +276,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-auto
                 figure
-                  img(src="@/assets/curso/tema7/img05.svg", alt="Normativa ambiental").mx-auto
+                  img(src="@/assets/curso/tema9/img10.svg", alt="Normativa ambiental").mx-auto
               .col
                 p.mb-0 <b>Ley 1259 de 2008:</b> instaura el Comparendo Ambiental como instrumento de cultura ciudadana para sancionar a quienes infrinjan la normativa de aseo y limpieza. Las sanciones pueden ser pedagógicas (cursos, talleres) o económicas (multas), y aplican por acciones como sacar basura en horarios no autorizados, no separar residuos, arrojar basura en espacios públicos, entre otras.
 
@@ -285,7 +285,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-auto
                 figure
-                  img(src="@/assets/curso/tema7/img05.svg", alt="Normativa ambiental").mx-auto
+                  img(src="@/assets/curso/tema9/img11.svg", alt="Normativa ambiental").mx-auto
               .col
                 p.mb-3 <b>Decreto 2981 de 2013:</b> reglamenta la prestación del servicio público de aseo y establece las obligaciones de los usuarios, incluyendo:
                 ul.lista-ul--color
@@ -307,7 +307,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-auto
                 figure
-                  img(src="@/assets/curso/tema7/img05.svg", alt="Normativa ambiental").mx-auto
+                  img(src="@/assets/curso/tema9/img09.svg", alt="Normativa ambiental").mx-auto
               .col
                 p.mb-0 <b>Resolución 2184 de 2019:</b> adopta el código de colores para la separación de residuos sólidos (verde, blanco, negro) y establece la obligatoriedad de su implementación a nivel nacional.
 
@@ -317,7 +317,7 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-auto
               figure
-                img(src="@/assets/curso/tema7/img05.svg", alt="Normativa ambiental").mx-auto
+                img(src="@/assets/curso/tema9/img10.svg", alt="Normativa ambiental").mx-auto
             .col
               p.mb-0 <b>Ley 1672 de 2013:</b> regula la gestión integral de residuos de aparatos eléctricos y electrónicos (RAEE), estableciendo responsabilidades para productores, comercializadores y consumidores. En repostería, aplica para equipos en desuso como hornos, batidoras, refrigeradores, entre otros.
 
@@ -326,7 +326,7 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-auto
               figure
-                img(src="@/assets/curso/tema7/img05.svg", alt="Normativa ambiental").mx-auto
+                img(src="@/assets/curso/tema9/img11.svg", alt="Normativa ambiental").mx-auto
             .col
               p.mb-0 <b>Decreto 1076 de 2015:</b> decreto único reglamentario del sector ambiente, que compila normas relacionadas con residuos peligrosos y no peligrosos.
 
@@ -334,7 +334,7 @@
     .container
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
-          img.titulo-con-imagen__imagen(src="@/assets/curso/tema6/img04.svg")
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema6/img4.svg")
           h3.titulo-con-imagen__texto Buenas prácticas ambientales en repostería
 
     p.mb-4 Además del cumplimiento normativo, se recomienda implementar prácticas que reduzcan el impacto ambiental:
@@ -387,7 +387,7 @@
 
             .col-auto.d-none.d-lg-block
               figure
-                img(src="@/assets/curso/tema9/img06.svg", alt="Icono formato").mx-auto
+                img(src="@/assets/curso/tema9/img12.svg", alt="Icono formato").mx-auto
 
 
 </template>
