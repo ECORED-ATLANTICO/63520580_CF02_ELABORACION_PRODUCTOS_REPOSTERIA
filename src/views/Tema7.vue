@@ -8,7 +8,7 @@
       h1 Costos de producción en repostería
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-down")
-      .bloque-texto-g.bg-color-1.p-3.p-sm-4.p-md-5
+      .bloque-texto-g.bg-color-6.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/tema7/img01.png')})`}"
         )
@@ -76,7 +76,7 @@
     .container.mb-5
       .titulo-con-imagen.mb-0(data-aos="fade-right")
         .titulo-con-imagen__fondo
-          img.titulo-con-imagen__imagen(src="@/assets/curso/tema6/img4.svg")
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema6/img4.png")
           h3.titulo-con-imagen__texto Rendimiento
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -85,11 +85,11 @@
         
         .container
           .row.mb-4.justify-content-center.align-items-center
-            .bg-color-2.p-4.br-15
+            .bg-color-7.p-4.br-15
               p.mb-0(data-aos="fade-right") <b>*Rendimiento (%) = (Peso del producto terminado / Peso de la materia prima) × 100*</b>
               
           .row.mb-4.justify-content-center.align-items-center
-            .bg-color-5.p-4.br-15
+            .bg-color-1.p-4.br-15
               p.mb-0(data-aos="fade-right") <b>Ejemplo práctico:</b> si para elaborar un bizcocho se utilizan 1.200 gramos de mezcla (materia prima) y después del horneado se obtienen 1.080 gramos de bizcocho (producto terminado), el rendimiento es: <br> (1.080 g / 1.200 g) × 100 = 90 %
             
         p.mb-0 Esto significa que se perdió el 10 % del peso inicial durante el proceso (principalmente por evaporación de agua durante el horneado).
@@ -101,7 +101,7 @@
 
     .container
       .row.mb-5.justify-content-center.align-items-center
-        .bg-color-2.p-4.br-15
+        .bg-color-7.p-4.br-15
           p.mb-4(data-aos="fade-right") <b>Merma:</b> la merma corresponde a la pérdida de materia prima durante el proceso productivo y puede clasificarse en:
           ul.lista-ul--color
             li
@@ -115,7 +115,7 @@
     .container.mb-5
       .titulo-con-imagen.mb-0(data-aos="fade-right")
         .titulo-con-imagen__fondo
-          img.titulo-con-imagen__imagen(src="@/assets/curso/tema6/img4.svg")
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema6/img4.png")
           h3.titulo-con-imagen__texto Cálculo del costo real de una receta
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -190,7 +190,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
-        .bg-color-5.p-4.br-15
+        .bg-color-1.p-4.br-15
           p.mb-0 <b>Si la torta rinde 12 porciones, el costo por porción es: $8.250 ÷ 12 = $687.50</b>
 
 
@@ -207,15 +207,15 @@
       .col-md-12.col-lg-12.col-xl-12.mb-4(data-aos="fade-down")
         .tarjeta.p-4.rounded-4.tarjeta-label.border-color-1.h-100
           .row.justify-content-center.align-items-center.mb-3
-            .col-auto
-              figure
-                img(src="@/assets/curso/tema7/img08.svg", alt="Método de costo más margen").mx-auto
+            .col-12.col-md-auto.mb-3.mb-md-0
+              figure.img-100
+                img(src="@/assets/curso/tema7/img08.png", alt="Método de costo más margen").mx-auto
             .col
               p.mb-0 <b>Método del factor (sobre costo de materia prima):</b> este método consiste en multiplicar el costo de la materia prima por un factor que cubra los demás costos (mano de obra, costos indirectos, gastos fijos) y la utilidad deseada.
 
           .row.justify-content-center.align-items-center.mb-3(data-aos="fade-right")
             .col-lg-12
-              .bg-color-2.p-4.br-15
+              .bg-color-7.p-4.br-15
                 p.mb-0 <b>Precio de venta = Costo de materia prima × Factor</b>
 
 
@@ -237,15 +237,15 @@
           .col-md-12.col-lg-12.col-xl-12(data-aos="fade-down")
             .tarjeta.p-4.rounded-4.tarjeta-label.border-color-3.h-100
               .row.justify-content-center.align-items-center.mb-3
-                .col-auto
-                  figure
-                    img(src="@/assets/curso/tema7/img10.svg", alt="Método de costo más margen").mx-auto
+                .col-12.col-md-auto.mb-3.mb-md-0
+                  figure.img-100
+                    img(src="@/assets/curso/tema7/img10.png", alt="Método de costo más margen").mx-auto
                 .col
                   p.mb-0 <b>Método del costo total más margen:</b> este método considera todos los costos asociados al producto (materia prima, mano de obra directa, costos indirectos asignados) y sobre ese total se aplica un margen de utilidad.
                   
               .row.justify-content-center.align-items-center.mb-3(data-aos="fade-right")
                 .col-lg-12
-                  .bg-color-2.p-4.br-15
+                  .bg-color-7.p-4.br-15
                     p.mb-0 <b>*Precio de venta = Costo total por unidad × (1 + Margen de utilidad deseado) *</b>
 
               .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
@@ -260,9 +260,9 @@
       .col-md-12.col-lg-12.col-xl-12.mb-4(data-aos="fade-down")
         .tarjeta.p-4.rounded-4.tarjeta-label.border-color-1.h-100
           .row.justify-content-center.align-items-center.mb-3
-            .col-auto
-              figure
-                img(src="@/assets/curso/tema7/img11.svg", alt="Método de costo más margen").mx-auto
+            .col-12.col-md-auto.mb-3.mb-md-0
+              figure.img-100
+                img(src="@/assets/curso/tema7/img11.png", alt="Método de costo más margen").mx-auto
             .col
               p.mb-0 <b>Método basado en el mercado:</b> este método parte del análisis de los precios de la competencia y de la disposición a pagar del mercado objetivo. El precio se fija en un rango competitivo, y luego se verifica que los costos permitan operar con rentabilidad dentro de ese rango. Si los costos son superiores al precio de mercado, es necesario reducir costos, mejorar la eficiencia o diferenciar el producto para justificar un precio superior.
               

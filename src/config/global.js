@@ -48,27 +48,27 @@ export default {
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Masas quebradas',
+            titulo: 'Masas quebradas (masa brisa, masa sucrée, masa sablee)',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: 'Masas batidas',
+            titulo: 'Masas batidas (bizcochos, piononos, magdalenas)',
             hash: 't_2_2',
           },
           {
             numero: '2.3',
-            titulo: 'Masas hojaldradas',
+            titulo: 'Masas hojaldradas (hojaldre común, hojaldre invertido)',
             hash: 't_2_3',
           },
           {
             numero: '2.4',
-            titulo: 'Masas escaldadas',
+            titulo: 'Masas escaldadas (pasta choux)',
             hash: 't_2_4',
           },
           {
             numero: '2.5',
-            titulo: 'Masas fermentadas',
+            titulo: 'Masas fermentadas (brioche, roscones)',
             hash: 't_2_5',
           },
         ],
@@ -81,27 +81,28 @@ export default {
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Jarabes',
+            titulo: 'Jarabes: simple, aromatizado, de azúcar invertido',
             hash: 't_3_1',
           },
           {
             numero: '3.2',
-            titulo: 'Cremas',
+            titulo:
+              'Cremas: pastelera, mantequilla, chantilly, diplomática, muselina',
             hash: 't_3_2',
           },
           {
             numero: '3.3',
-            titulo: 'Coberturas',
+            titulo: 'Coberturas: chocolate, ganache, espejo',
             hash: 't_3_3',
           },
           {
             numero: '3.4',
-            titulo: 'Salsas dulces',
+            titulo: 'Salsas dulces: caramelo, frutos rojos, chocolate, inglesa',
             hash: 't_3_4',
           },
           {
             numero: '3.5',
-            titulo: 'Fondant',
+            titulo: 'Fondant: cubierta y modelable',
             hash: 't_3_5',
           },
         ],
@@ -124,7 +125,7 @@ export default {
           },
           {
             numero: '4.3',
-            titulo: 'Postres helados',
+            titulo: 'Postres helados (semifríos, helados, sorbetes)',
             hash: 't_4_3',
           },
         ],
@@ -137,12 +138,14 @@ export default {
         subMenu: [
           {
             numero: '5.1',
-            titulo: 'Círculo cromático',
+            titulo:
+              'Círculo cromático: colores primarios, secundarios e intermedios',
             hash: 't_5_1',
           },
           {
             numero: '5.2',
-            titulo: 'Técnicas básicas de decoración',
+            titulo:
+              'Técnicas básicas de decoración: manga pastelera, boquillas, glaseado',
             hash: 't_5_2',
           },
           {
@@ -193,7 +196,8 @@ export default {
         subMenu: [
           {
             numero: '7.1',
-            titulo: 'Conceptos básicos',
+            titulo:
+              'Conceptos básicos: costo directo, indirecto, fijo, variable',
             hash: 't_7_1',
           },
           {
@@ -244,12 +248,14 @@ export default {
           },
           {
             numero: '9.2',
-            titulo: 'Clasificación de residuos',
+            titulo:
+              'Clasificación de residuos: orgánicos, inorgánicos, peligrosos',
             hash: 't_9_2',
           },
           {
             numero: '9.3',
-            titulo: 'Técnicas de manejo',
+            titulo:
+              'Técnicas de manejo: segregación en la fuente, almacenamiento temporal',
             hash: 't_9_3',
           },
           {

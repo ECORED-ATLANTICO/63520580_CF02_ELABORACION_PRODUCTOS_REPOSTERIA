@@ -13,7 +13,7 @@
         
         .row.justify-content-center.align-items-center.z-2.mb-0
           .col-lg-10(data-aos="fade-up")
-            p.banner-text(style="background-color: #ffffff !important") La actividad repostera, como toda industria alimentaria, genera residuos que deben ser gestionados adecuadamente para minimizar el impacto ambiental, prevenir problemas sanitarios y cumplir con la normativa vigente. La gestión integral de residuos implica desde la reducción en la fuente hasta la disposición final, pasando por la segregación, el almacenamiento temporal y el aprovechamiento cuando sea posible.
+            p.banner-text La actividad repostera, como toda industria alimentaria, genera residuos que deben ser gestionados adecuadamente para minimizar el impacto ambiental, prevenir problemas sanitarios y cumplir con la normativa vigente. La gestión integral de residuos implica desde la reducción en la fuente hasta la disposición final, pasando por la segregación, el almacenamiento temporal y el aprovechamiento cuando sea posible.
 
 
     separador
@@ -44,7 +44,7 @@
                   | Establecer indicadores de gestión (kg de residuos por producto elaborado).
 
           .row.mb-0.justify-content-center.align-items-center
-            .bg-color-5.p-4.br-15
+            .bg-color-1.p-4.br-15
               p.mb-0(data-aos="fade-right") Para realizar una caracterización básica, debe pesarse y clasificarse los residuos generados durante un período representativo (una semana, por ejemplo), registrando los resultados por categoría.
               
       .col-lg-4.col-md-8
@@ -256,7 +256,7 @@
     .bg-full-width.bg-fondo-1
 
       #t_9_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 9.4 Manejo de residuos orgánicos y aprovechables
+        h2 9.4 Legislación ambiental aplicable
 
       p.mb-4 El manejo de residuos en Colombia está regulado por diversas normas que establecen obligaciones para los generadores:
 
@@ -265,27 +265,27 @@
         .col-md-12.col-lg-12.col-xl-12.mb-4(data-aos="fade-down")
           .tarjeta.p-4.rounded-4.tarjeta-label.border-color-1.h-100
             .row.justify-content-center.align-items-center.mb-0
-              .col-auto
-                figure
-                  img(src="@/assets/curso/tema9/img09.svg", alt="Normativa ambiental").mx-auto
+              .col-12.col-md-auto.mb-3.mb-md-0
+                figure.img-50.width-mobile-25
+                  img(src="@/assets/curso/tema9/img09.png", alt="Normativa ambiental").mx-auto
               .col
                 p.mb-0 <b>Ley 99 de 1993:</b> crea el Sistema Nacional Ambiental (SINA) y establece principios generales de protección ambiental aplicables a toda actividad productiva, incluyendo la obligación de prevenir y controlar la contaminación.
 
         .col-md-12.col-lg-12.col-xl-12.mb-4(data-aos="fade-down")
           .tarjeta.p-4.rounded-4.tarjeta-label.border-color-3.h-100
             .row.justify-content-center.align-items-center.mb-0
-              .col-auto
-                figure
-                  img(src="@/assets/curso/tema9/img10.svg", alt="Normativa ambiental").mx-auto
+              .col-12.col-md-auto.mb-3.mb-md-0
+                figure.img-50.width-mobile-25
+                  img(src="@/assets/curso/tema9/img10.png", alt="Normativa ambiental").mx-auto
               .col
                 p.mb-0 <b>Ley 1259 de 2008:</b> instaura el Comparendo Ambiental como instrumento de cultura ciudadana para sancionar a quienes infrinjan la normativa de aseo y limpieza. Las sanciones pueden ser pedagógicas (cursos, talleres) o económicas (multas), y aplican por acciones como sacar basura en horarios no autorizados, no separar residuos, arrojar basura en espacios públicos, entre otras.
 
         .col-md-12.col-lg-12.col-xl-12.mb-4(data-aos="fade-down")
           .tarjeta.p-4.rounded-4.tarjeta-label.border-color-1.h-100
             .row.justify-content-center.align-items-center.mb-0
-              .col-auto
-                figure
-                  img(src="@/assets/curso/tema9/img11.svg", alt="Normativa ambiental").mx-auto
+              .col-12.col-md-auto.mb-3.mb-md-0
+                figure.img-50.width-mobile-25
+                  img(src="@/assets/curso/tema9/img11.png", alt="Normativa ambiental").mx-auto
               .col
                 p.mb-3 <b>Decreto 2981 de 2013:</b> reglamenta la prestación del servicio público de aseo y establece las obligaciones de los usuarios, incluyendo:
                 ul.lista-ul--color
@@ -305,9 +305,9 @@
         .col-md-12.col-lg-12.col-xl-12.mb-4(data-aos="fade-down")
           .tarjeta.p-4.rounded-4.tarjeta-label.border-color-3.h-100
             .row.justify-content-center.align-items-center.mb-0
-              .col-auto
-                figure
-                  img(src="@/assets/curso/tema9/img09.svg", alt="Normativa ambiental").mx-auto
+              .col-12.col-md-auto.mb-3.mb-md-0
+                figure.img-50.width-mobile-25
+                  img(src="@/assets/curso/tema9/img09.png", alt="Normativa ambiental").mx-auto
               .col
                 p.mb-0 <b>Resolución 2184 de 2019:</b> adopta el código de colores para la separación de residuos sólidos (verde, blanco, negro) y establece la obligatoriedad de su implementación a nivel nacional.
 
@@ -315,18 +315,18 @@
       .col-md-12.col-lg-12.col-xl-12.mb-4(data-aos="fade-down")
         .tarjeta.p-4.rounded-4.tarjeta-label.border-color-1.h-100
           .row.justify-content-center.align-items-center.mb-0
-            .col-auto
-              figure
-                img(src="@/assets/curso/tema9/img10.svg", alt="Normativa ambiental").mx-auto
+            .col-12.col-md-auto.mb-3.mb-md-0
+              figure.img-50.width-mobile-25
+                img(src="@/assets/curso/tema9/img10.png", alt="Normativa ambiental").mx-auto
             .col
               p.mb-0 <b>Ley 1672 de 2013:</b> regula la gestión integral de residuos de aparatos eléctricos y electrónicos (RAEE), estableciendo responsabilidades para productores, comercializadores y consumidores. En repostería, aplica para equipos en desuso como hornos, batidoras, refrigeradores, entre otros.
 
       .col-md-12.col-lg-12.col-xl-12.mb-4(data-aos="fade-down")
         .tarjeta.p-4.rounded-4.tarjeta-label.border-color-3.h-100
           .row.justify-content-center.align-items-center.mb-0
-            .col-auto
-              figure
-                img(src="@/assets/curso/tema9/img11.svg", alt="Normativa ambiental").mx-auto
+            .col-12.col-md-auto.mb-3.mb-md-0
+              figure.img-50.width-mobile-25
+                img(src="@/assets/curso/tema9/img11.png", alt="Normativa ambiental").mx-auto
             .col
               p.mb-0 <b>Decreto 1076 de 2015:</b> decreto único reglamentario del sector ambiente, que compila normas relacionadas con residuos peligrosos y no peligrosos.
 
@@ -334,7 +334,7 @@
     .container
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
-          img.titulo-con-imagen__imagen(src="@/assets/curso/tema6/img4.svg")
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema6/img4.png")
           h3.titulo-con-imagen__texto Buenas prácticas ambientales en repostería
 
     p.mb-4 Además del cumplimiento normativo, se recomienda implementar prácticas que reduzcan el impacto ambiental:
@@ -380,14 +380,14 @@
 
     .row.align-items-stretch.justify-content-center.mb-3
       .col-md-12.col-lg-12.col-xl-12.mb-4(data-aos="fade-down")
-        .tarjeta.p-4.rounded-4.tarjeta-label.bg-color-2.h-100
+        .tarjeta.p-4.rounded-4.tarjeta-label.bg-color-7.h-100
           .row.justify-content-center.align-items-center.mb-0
             .col
               p.mb-0 La gestión responsable de residuos no solo contribuye a la protección del ambiente y al cumplimiento legal, sino que también mejora la imagen del establecimiento frente a clientes cada vez más conscientes de la sostenibilidad.
 
             .col-auto.d-none.d-lg-block
               figure
-                img(src="@/assets/curso/tema9/img12.svg", alt="Icono formato").mx-auto
+                img(src="@/assets/curso/tema9/img12.png", alt="Icono formato").mx-auto.img-100
 
 
 </template>

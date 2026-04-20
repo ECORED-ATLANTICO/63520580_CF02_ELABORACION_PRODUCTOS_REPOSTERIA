@@ -24,7 +24,7 @@
         .col-md-6.col-lg-6.mb-4(data-aos="fade-down")
           .tarjeta.bg-color-5.p-4.rounded-4.tarjeta-label.border-color-1.ms-md-5.h-100
             .tarjeta-label__img-wrapper
-              img(src='@/assets/curso/tema4/img02.svg' alt='Fondant cubierta')
+              img(src='@/assets/curso/tema4/img02.png' alt='Fondant cubierta')
             .ms-lg-5.ms-0.ps-md-3
               p.mb-2 <b>Budines</b>: postres horneados al baño maría, de textura firme pero suave. Pueden ser de diversos sabores (coco, pan, queso, dulce de leche). El flan y el pudín son ejemplos representativos.
               
@@ -32,7 +32,7 @@
         .col-md-6.col-lg-6.mb-4(data-aos="fade-up")
           .tarjeta.bg-color-5.p-4.rounded-4.tarjeta-label.border-color-1.ms-md-5.h-100
             .tarjeta-label__img-wrapper
-              img(src="@/assets/curso/tema4/img03.svg", alt="Fondant modelable")
+              img(src="@/assets/curso/tema4/img03.png", alt="Fondant modelable")
             .ms-lg-5.ms-0.ps-md-3
               p.mb-2 <b>Natillas</b>: preparación a base de leche, yemas, azúcar y aromatizantes (vainilla, canela, limón). Se espesan por coagulación de las yemas, alcanzando una temperatura de 82 – 85 °C. Se sirven frías, tradicionalmente acompañadas de galleta.
               
@@ -53,7 +53,7 @@
     separador
     
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.2 Mousses y postres helados
+      h2 4.2 Bavarois, mousses y soufflés
 
     .bloque-texto-g.bg-color-7.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -68,21 +68,21 @@
       .col-md-6.col-lg-6.col-xl-4.mb-4(data-aos="fade-down")
         .tarjeta.bg-color-5.p-4.rounded-4.tarjeta-label.border-color-1.ms-md-5.h-100
           .tarjeta-label__img-wrapper
-            img(src='@/assets/curso/tema4/img05.svg' alt='Bavarois')
+            img(src='@/assets/curso/tema4/img05.png' alt='Bavarois')
           .ms-lg-5.ms-0.ps-md-3
             p.mb-2 <b>Bavarois (Bavaroise)</b>: Postre moldeado de textura sedosa, a base de crema inglesa, gelatina y crema chantilly montada. Se refrigera hasta que cuaja. Puede aromatizarse con café, chocolate, frutas o licores.
 
       .col-md-6.col-lg-6.col-xl-4.mb-4(data-aos="fade-down")
         .tarjeta.bg-color-5.p-4.rounded-4.tarjeta-label.border-color-1.ms-md-5.h-100
           .tarjeta-label__img-wrapper
-            img(src='@/assets/curso/tema4/img06.svg' alt='Soufflé')
+            img(src='@/assets/curso/tema4/img06.png' alt='Soufflé')
           .ms-lg-5.ms-0.ps-md-3
             p.mb-2 <b>Soufflé</b>: Postre espectacular que se infla en el horno gracias a las claras montadas. Puede ser caliente (soufflé caliente) o frío (soufflé frío, que no se hornea). El soufflé caliente debe servirse inmediatamente salido del horno para disfrutar de su textura esponjosa.
 
       .col-md-6.col-lg-6.col-xl-4.mb-4(data-aos="fade-up")
         .tarjeta.bg-color-5.p-4.rounded-4.tarjeta-label.border-color-1.ms-md-5.h-100
           .tarjeta-label__img-wrapper
-            img(src="@/assets/curso/tema4/img07.svg", alt="Mousse")
+            img(src="@/assets/curso/tema4/img07.png", alt="Mousse")
           .ms-lg-5.ms-0.ps-md-3
             p.mb-2 <b>Mousse</b>: Preparación aireada que puede ser dulce o salada. La aireación se logra mediante claras montadas o crema chantilly. Puede llevar gelatina para darle mayor firmeza. La mousse de chocolate es la más conocida.
             

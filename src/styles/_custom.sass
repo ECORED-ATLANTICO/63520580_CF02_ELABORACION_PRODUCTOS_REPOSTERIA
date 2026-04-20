@@ -12,7 +12,7 @@
   &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 73%
+    top: 63%
     right: 24%
 
 @keyframes float1
@@ -162,6 +162,7 @@ figcaption
   background-size: contain
 
 .bg-full-width
+  border-radius: 0px !important
   margin: 0 -3em
   padding: 0 3rem
   background-size: cover
@@ -557,12 +558,12 @@ a, button, div
 
   //////////////CUSTON SLYDER-A////////
 .slyder-a__bullets__item
-  background-color: #FF964C
-  border: #FF964C
+  background-color: #941FF0
+  border: #941FF0
 .slyder-a__bullets__item--active
-  background-color: #FF964C
+  background-color: #941FF0
 .slyder-a__btn--atrs, .slyder-a__btn--sigt
-  background-color: #FF964C
+  background-color: #941FF0
 .slyder-a__bullets__item
   @media screen and ( max-width: $bp-max-xs )
     margin: 0 5px
@@ -572,7 +573,7 @@ a, button, div
   position: relative
   z-index: 2
 .banner-text
-  background-color: #E6EDF1 !important
+  background-color: #EBF4FF !important
   border-radius: 10px
   padding: 50px
   margin-top: -60px
@@ -591,8 +592,27 @@ a, button, div
 .tabla-a td
   text-align: start !important
 
+.tabla-a tbody tr:nth-child(odd)
+  background-color: #F6F6F6
+.tabla-a tbody tr:nth-child(even)
+  background-color: #FFFFFF
+
 .border-radius-20
   border-radius: 20px
+
+@media (max-width: 768px)
+  .img-100-mobile
+    width: 100px !important
+    margin-left: auto !important
+    margin-right: auto !important
+
+.img-100
+  width: 100px !important
+  margin: 0 auto
+
+.img-50
+  width: 50px !important
+  margin: 0 auto
 
   //CLASES TITULOS//
 .titulo-con-imagen

@@ -7,12 +7,14 @@
         span 3
       h1 Jarabes, fondant, cremas, coberturas y salsas básicas
 
-    .bloque-texto-g.bg-color-1.p-3.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/tema3/img01.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 Estos elementos complementan las masas, aportando humedad, sabor, textura y atractivo visual a los productos de repostería. Su dominio permite al profesional crear preparaciones completas y equilibradas.
+    .row.mb-5.justify-content-center.align-items-center
+      .col-lg-12
+        .bloque-texto-g.bg-color-1.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema3/img01.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 Estos elementos complementan las masas, aportando humedad, sabor, textura y atractivo visual a los productos de repostería. Su dominio permite al profesional crear preparaciones completas y equilibradas.
 
     separador
 
@@ -122,21 +124,20 @@
           
     separador
     
-    .bg-full-width.bg-fondo-1
+    .bg-full-width.bg-fondo-1.px-4.px-md-5.pb-4
       #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 3.3 Coberturas: chocolate, ganache, espejo
 
       p.mb-4 Las coberturas son preparaciones utilizadas en repostería para recubrir, decorar y realzar la apariencia de diferentes productos como tortas, postres y pasteles. Además de aportar un acabado atractivo, también contribuyen al sabor, la textura y la presentación final de las preparaciones.
 
-      .container
-        .row.mb-5.justify-content-center.align-items-center
-          .bg-color-2.p-4.br-15
-            .row.justify-content-center.align-items-center
-              .col-lg
-                p.mb-0(data-aos="fade-right") Entre las coberturas más utilizadas se encuentran el chocolate, la ganache y el glaseado espejo. Cada una posee características particulares en cuanto a consistencia, brillo y aplicación, lo que permite utilizarlas en diferentes tipos de productos y técnicas de decoración dentro de la repostería.
-              .col-auto.mb-3.mb-lg-0
-                figure
-                  img.d-none.d-lg-flex(src="@/assets/curso/tema3/img09.svg", data-aos="zoom-in")
+      .row.mb-5.justify-content-center.align-items-center
+        .bg-color-7.p-4.br-15
+          .row.justify-content-center.align-items-center
+            .col-lg
+              p.mb-0(data-aos="fade-right") Entre las coberturas más utilizadas se encuentran el chocolate, la ganache y el glaseado espejo. Cada una posee características particulares en cuanto a consistencia, brillo y aplicación, lo que permite utilizarlas en diferentes tipos de productos y técnicas de decoración dentro de la repostería.
+            .col-auto.mb-3.mb-lg-0.d-none.d-lg-flex
+              figure
+                img(src="@/assets/curso/tema3/img09.png", data-aos="zoom-in").img-100.mx-auto
               
 
       .row.align-items-center.justify-content-center.mb-5(data-aos="fade-right")
@@ -231,7 +232,7 @@
                   img(src="@/assets/curso/tema3/img18.png", alt="Crema inglesa").mx-auto
       .col-md-8.col-lg-4.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema3/img19.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema3/img22.png", data-aos="zoom-in")
 
     separador
     
@@ -242,28 +243,28 @@
       
     .container
       .row.mb-5.justify-content-center.align-items-center
-        .bg-color-2.p-4.br-15
+        .bg-color-7.p-4.br-15
           .row.justify-content-center.align-items-center
             .col-lg
               p.mb-0(data-aos="fade-right") Además de su uso como cubierta, el fondant también puede moldearse para crear figuras, decoraciones y detalles personalizados. Gracias a estas características, se convierte en un recurso muy utilizado en la decoración de repostería, permitiendo obtener presentaciones creativas y atractivas en diferentes tipos de preparaciones; entre los más utilizados tenemos:
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-lg-0.d-none.d-lg-flex
               figure
-                img.d-none.d-lg-flex(src="@/assets/curso/tema3/img19.svg", data-aos="zoom-in")
-            
+                img(src="@/assets/curso/tema3/img19.png", data-aos="zoom-in").img-100.mx-auto
+              
 
-    .row.align-items-stretch.justify-content-center.mb-0
-      .col-md-6.col-lg-6.mb-4(data-aos="fade-down")
+    .row.justify-content-center.mb-0
+      .col-md-6.col-lg-6.mb-4(data-aos="fade-right")
         .tarjeta.bg-color-5.p-4.rounded-4.tarjeta-label.border-color-1.ms-md-5.h-100
           .tarjeta-label__img-wrapper
-            img(src='@/assets/curso/tema3/img20.svg' alt='Fondant cubierta')
+            img(src='@/assets/curso/tema3/img20.png' alt='Fondant cubierta')
           .ms-lg-5.ms-0.ps-md-3
             p.mb-2 <b>Fondant cubierta (Fondant pâtissier)</b>: pasta de azúcar líquida y brillante que se vierte sobre pasteles (petits fours, bizcochos) para obtener una capa lisa y brillante. Se utiliza caliente (35 - 40 °C).
 
             
-      .col-md-6.col-lg-6.mb-4(data-aos="fade-up")
+      .col-md-6.col-lg-6.mb-4(data-aos="fade-left")
         .tarjeta.bg-color-5.p-4.rounded-4.tarjeta-label.border-color-1.ms-md-5.h-100
           .tarjeta-label__img-wrapper
-            img(src="@/assets/curso/tema3/img21.svg", alt="Fondant modelable")
+            img(src="@/assets/curso/tema3/img21.png", alt="Fondant modelable")
           .ms-lg-5.ms-0.ps-md-3
             p.mb-2 <b>Fondant modelable (Sugar paste)</b>: pasta de azúcar más firme que se extiende con rodillo y se moldea para cubrir tortas (fondant de cobertura) y crear figuras decorativas. Contiene glucosa, gelatina y grasa vegetal que le otorgan plasticidad.
             

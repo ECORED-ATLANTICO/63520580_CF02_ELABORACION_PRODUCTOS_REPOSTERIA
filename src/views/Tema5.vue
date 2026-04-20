@@ -12,11 +12,11 @@
         figure
           img(src="@/assets/curso/tema5/img01.png", alt="Decoración en repostería").mx-auto
       .col-lg-7
-        .bg-color-2.p-4.br-15
+        .bg-color-7.p-4.br-15
           .row.justify-content-center
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-lg-0.d-none.d-lg-flex
               figure
-                img.d-none.d-lg-flex(src="@/assets/curso/tema5/img02.svg", data-aos="zoom-in")
+                img(src="@/assets/curso/tema5/img02.png", data-aos="zoom-in").img-50.mx-auto
             .col-lg
               p.mb-0(data-aos="fade-right") La decoración constituye el aspecto visual que completa la experiencia de un producto de repostería, integrando principios de diseño, color y textura. El dominio de las técnicas básicas de decoración, así como la comprensión de los fundamentos estéticos, permite al profesional presentar sus creaciones de manera atractiva y profesional, aumentando su valor percibido.
               
@@ -65,9 +65,9 @@
           .row.justify-content-center.align-items-center
             .col-lg
               p.mb-0(data-aos="fade-right") <b>Aplicación en repostería:</b> un pastel decorado con frutos rojos puede combinarse con crema verde (menta) para un contraste complementario. Un postre de chocolate (marrón) puede realzarse con toques de naranja o frutos amarillos.
-            .col-auto.mb-3.mb-lg-0
+            .col-auto.mb-3.mb-lg-0.d-none.d-lg-flex
               figure
-                img.d-none.d-lg-flex(src="@/assets/curso/tema5/img09.svg", data-aos="zoom-in")
+                img(src="@/assets/curso/tema5/img09.png", data-aos="zoom-in").img-100.mx-auto
               
     
     separador

@@ -14,7 +14,7 @@
         
         .row.justify-content-center.align-items-center.z-2.mb-0
           .col-lg-10(data-aos="fade-up")
-            p.banner-text(style="background-color: #ffffff !important") La garantía de calidad e inocuidad es un pilar fundamental en la producción de alimentos, especialmente en repostería, donde el uso de ingredientes perecederos como lácteos y huevos implica riesgos específicos. La aplicación de parámetros de control, buenas prácticas de manufactura y la identificación de puntos críticos constituyen herramientas esenciales para proteger la salud del consumidor y asegurar la excelencia del producto final.
+            p.banner-text La garantía de calidad e inocuidad es un pilar fundamental en la producción de alimentos, especialmente en repostería, donde el uso de ingredientes perecederos como lácteos y huevos implica riesgos específicos. La aplicación de parámetros de control, buenas prácticas de manufactura y la identificación de puntos críticos constituyen herramientas esenciales para proteger la salud del consumidor y asegurar la excelencia del producto final.
       
     separador
     
@@ -131,44 +131,44 @@
         .col-lg-8
           SlyderF.custom(columnas="col-md-12 col-lg-6")
             .tarjeta.tarjeta--slyder.p-4
-              .row.mb-3
-                .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img03.svg' alt='Recepción de materias primas')
+              .row.mb-3.justify-content-center
+                .col-12.col-md-auto.mb-3.mb-md-0
+                  img.img-100.mx-auto(src='@/assets/curso/tema6/img03.png' alt='Recepción de materias primas')
               h4.text-center Recepción de materias primas
               p.mb-0 Verificar temperaturas (≤ 4 °C para perecederos), integridad de empaques, fechas de vencimiento y calidad organoléptica. Rechazar productos que no cumplan.
 
             .tarjeta.tarjeta--slyder.p-4
-              .row.mb-3
-                .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img04.svg' alt='Almacenamiento')
+              .row.mb-3.justify-content-center
+                .col-12.col-md-auto.mb-3.mb-md-0
+                  img.img-100.mx-auto(src='@/assets/curso/tema6/img04.png' alt='Almacenamiento')
               h4.text-center Almacenamiento
               p.mb-0 Respetar temperaturas (refrigeración ≤ 4 °C, congelación ≤- 18 °C), fechas de vencimiento, rotación PEPS (primero en entrar, primero en salir) y separación de crudos y cocidos.
 
             .tarjeta.tarjeta--slyder.p-4
-              .row.mb-3
-                .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img05.svg' alt='Preparación (mise en place)')
+              .row.mb-3.justify-content-center
+                .col-12.col-md-auto.mb-3.mb-md-0
+                  img.img-100.mx-auto(src='@/assets/curso/tema6/img05.png' alt='Preparación (mise en place)')
               h4.text-center Preparación (mise en place)
               p.mb-0 Aplicar código de colores (tablas y cuchillos), lavado de manos frecuente (5 momentos), evitar contaminación cruzada, mantener superficies limpias y desinfectadas.
 
             .tarjeta.tarjeta--slyder.p-4
-              .row.mb-3
-                .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img06.svg' alt='Cocción')
+              .row.mb-3.justify-content-center
+                .col-12.col-md-auto.mb-3.mb-md-0
+                  img.img-100.mx-auto(src='@/assets/curso/tema6/img06.png' alt='Cocción')
               h4.text-center Cocción
               p.mb-0 Verificar temperaturas internas con termómetro: 74 °C para preparaciones con huevo (flan, natillas), 85 °C para crema pastelera, 74 °C para carnes (si se usan).
 
             .tarjeta.tarjeta--slyder.p-4
-              .row.mb-3
-                .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img07.svg' alt='Enfriamiento')
+              .row.mb-3.justify-content-center
+                .col-12.col-md-auto.mb-3.mb-md-0
+                  img.img-100.mx-auto(src='@/assets/curso/tema6/img07.png' alt='Enfriamiento')
               h4.text-center Enfriamiento
               p.mb-0 Enfriar rápidamente preparaciones calientes: de 60 °C a 21 °C en máximo 2 horas, y de 21 °C a 4 °C en máximo 4 horas. Utilizar baños de hielo, recipientes poco profundos o abatidores de temperatura.
 
             .tarjeta.tarjeta--slyder.p-4
-              .row.mb-3
-                .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img08.svg' alt='Servicio y conservación')
+              .row.mb-3.justify-content-center
+                .col-12.col-md-auto.mb-3.mb-md-0
+                  img.img-100.mx-auto(src='@/assets/curso/tema6/img08.png' alt='Servicio y conservación')
               h4.text-center Servicio y conservación
               p.mb-0 Mantener temperaturas seguras: fríos ≤ 4 °C, calientes ≥ 60 °C.
 
@@ -242,44 +242,44 @@
       .container
         .titulo-con-imagen.mb-0(data-aos="fade-right")
           .titulo-con-imagen__fondo
-            img.titulo-con-imagen__imagen(src="@/assets/curso/tema6/img4.svg")
+            img.titulo-con-imagen__imagen(src="@/assets/curso/tema6/img4.png")
             h3.titulo-con-imagen__texto Prevención de accidentes
       
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col-lg-8.mb-3.mb-lg-0
           SlyderF.custom(columnas="col-md-12 col-lg-6")
             .tarjeta.tarjeta--slyder.p-4
-              .row.mb-3
-                .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img09.svg' alt='Cortes')
+              .row.mb-3.justify-content-center
+                .col-12.col-md-auto.mb-3.mb-md-0
+                  img.img-100.mx-auto(src='@/assets/curso/tema6/img09.png' alt='Cortes')
               h4.text-center Cortes
               p.mb-0 Usar cuchillos bien afilados (los cuchillos sin filo causan más accidentes al requerir mayor fuerza), utilizar la técnica correcta de corte ("mano de garra" para guiar el alimento), almacenar cuchillos en guardas, rieleras o tablas magnéticas, nunca dejarlos sumergidos en agua.
 
             .tarjeta.tarjeta--slyder.p-4
-              .row.mb-3
-                .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img10.svg' alt='Quemaduras')
+              .row.mb-3.justify-content-center
+                .col-12.col-md-auto.mb-3.mb-md-0
+                  img.img-100.mx-auto(src='@/assets/curso/tema6/img10.png' alt='Quemaduras')
               h4.text-center Quemaduras
               p.mb-0 Usar agarraderas secas (la humedad conduce el calor), abrir las tapas de las ollas en dirección opuesta al cuerpo para evitar quemaduras por vapor, tener cuidado con el aceite caliente (no agregar agua), usar mangas largas de algodón.
 
             .tarjeta.tarjeta--slyder.p-4
-              .row.mb-3
-                .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img11.svg' alt='Caídas')
+              .row.mb-3.justify-content-center
+                .col-12.col-md-auto.mb-3.mb-md-0
+                  img.img-100.mx-auto(src='@/assets/curso/tema6/img11.png' alt='Caídas')
               h4.text-center Caídas
               p.mb-0 Limpiar derrames inmediatamente, usar calzado antideslizante con puntera de seguridad, mantener pasillos y áreas de circulación libres de obstáculos, usar señalización en pisos recién trapeados.
 
             .tarjeta.tarjeta--slyder.p-4
-              .row.mb-3
-                .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img12.svg' alt='Golpes')
+              .row.mb-3.justify-content-center
+                .col-12.col-md-auto.mb-3.mb-md-0
+                  img.img-100.mx-auto(src='@/assets/curso/tema6/img12.png' alt='Golpes')
               h4.text-center Golpes
               p.mb-0 Abrir puertas de armarios con cuidado, no almacenar objetos pesados en estantes altos sin asegurarlos.
 
             .tarjeta.tarjeta--slyder.p-4
-              .row.mb-3
-                .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img13.svg' alt='Sobre esfuerzos')
+              .row.mb-3.justify-content-center
+                .col-12.col-md-auto.mb-3.mb-md-0
+                  img.img-100.mx-auto(src='@/assets/curso/tema6/img13.png' alt='Sobre esfuerzos')
               h4.text-center Sobre esfuerzos
               p.mb-0 Utilizar técnica correcta para levantar objetos pesados (doblar rodillas, mantener la espalda recta), usar carros de transporte para cargas pesadas, solicitar ayuda cuando sea necesario.
         .col-lg-4.col-md-8
@@ -291,7 +291,7 @@
       .container.mb-5
         .titulo-con-imagen.mb-0(data-aos="fade-right")
           .titulo-con-imagen__fondo
-            img.titulo-con-imagen__imagen(src="@/assets/curso/tema6/img4.svg")
+            img.titulo-con-imagen__imagen(src="@/assets/curso/tema6/img4.png")
             h3.titulo-con-imagen__texto Uso correcto de elementos de protección personal (EPP)
     
       .row.align-items-center.justify-content-center.mb-5(data-aos="fade-right")
@@ -301,37 +301,37 @@
         .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-2
           SlyderF.custom(columnas="col-md-12 col-lg-6")
             .tarjeta.tarjeta--slyder.p-4
-              .row.mb-3
-                .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img16.svg' alt='Cortes')
+              .row.mb-3.justify-content-center
+                .col-12.col-md-auto.mb-3.mb-md-0
+                  img.img-100.mx-auto(src='@/assets/curso/tema6/img16.png' alt='Cortes')
               h4.text-center Calzado antideslizante
               p.mb-0 Obligatorio en toda cocina, con puntera de seguridad recomendada.
 
             .tarjeta.tarjeta--slyder.p-4
-              .row.mb-3
-                .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img17.svg' alt='Cortes')
+              .row.mb-3.justify-content-center
+                .col-12.col-md-auto.mb-3.mb-md-0
+                  img.img-100.mx-auto(src='@/assets/curso/tema6/img17.png' alt='Cortes')
               h4.text-center Delantal
               p.mb-0 Protege la ropa de trabajo y la piel de salpicaduras calientes y líquidos.
 
             .tarjeta.tarjeta--slyder.p-4
-              .row.mb-3
-                .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img18.svg' alt='Cortes')
+              .row.mb-3.justify-content-center
+                .col-12.col-md-auto.mb-3.mb-md-0
+                  img.img-100.mx-auto(src='@/assets/curso/tema6/img18.png' alt='Cortes')
               h4.text-center Gorro o cofia
               p.mb-0 Contiene el cabello y evita su caída en los alimentos. Debe cubrir todo el cabello.
 
             .tarjeta.tarjeta--slyder.p-4
-              .row.mb-3
-                .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img19.svg' alt='Cortes')
+              .row.mb-3.justify-content-center
+                .col-12.col-md-auto.mb-3.mb-md-0
+                  img.img-100.mx-auto(src='@/assets/curso/tema6/img19.png' alt='Cortes')
               h4.text-center Guantes
               p.mb-0 Para manipulación de alimentos listos para consumo, nunca como sustituto del lavado de manos. Deben cambiarse frecuentemente.
 
             .tarjeta.tarjeta--slyder.p-4
-              .row.mb-3
-                .col-auto.mx-auto
-                  img(src='@/assets/curso/tema6/img20.svg' alt='Cortes')
+              .row.mb-3.justify-content-center
+                .col-12.col-md-auto.mb-3.mb-md-0
+                  img.img-100.mx-auto(src='@/assets/curso/tema6/img20.png' alt='Cortes')
               h4.text-center Tapabocas
               p.mb-0 Obligatorio en áreas de preparación de alimentos listos para consumo y cuando se tenga alguna afección respiratoria.
 
@@ -347,7 +347,7 @@
 
     .container
       .row.mb-4.justify-content-center.align-items-center
-        .bg-color-2.p-4.br-15
+        .bg-color-7.p-4.br-15
           .row.justify-content-center.align-items-center
             .col-auto.mb-3.mb-lg-0.d-none.d-lg-flex
               figure
@@ -365,7 +365,7 @@
               p.mb-0(data-aos="fade-right") <b>Decreto 2981 de 2013:</b> regula la prestación del servicio público de aseo y la gestión integral de residuos sólidos, incluyendo la obligación de los generadores de realizar separación en la fuente.
 
       .row.mb-4.justify-content-center.align-items-center
-        .bg-color-2.p-4.br-15
+        .bg-color-7.p-4.br-15
           .row.justify-content-center.align-items-center
             .col-auto.mb-3.mb-lg-0.d-none.d-lg-flex
               figure
