@@ -40,7 +40,7 @@
                 th Descripción
             tbody
               tr
-                td(rowspan="4") <b>Organolépticas</b>
+                td(rowspan="4").bg-white <b>Organolépticas</b>
                 td Color
                 td Debe ser uniforme y característico del producto. Un bizcocho debe tener un dorado homogéneo; una crema pastelera, un amarillo pálido uniforme sin grumos oscuros ni quemados.
               tr
